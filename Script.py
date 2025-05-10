@@ -4,8 +4,13 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ {} 👋, I Aᴍ Lᴀᴛᴇꜱᴛ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Pᴏᴡᴇʀꜰᴜʟ Fᴜᴛᴜʀᴇs Wɪᴛʜ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ,Cʟᴏɴᴇ Fᴇᴀᴛᴜʀᴇ,Sᴛʀᴇᴀᴍ / Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Fᴇᴀᴛᴜʀᴇ,Cᴜꜱᴛᴏᴍ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛ,Aᴜᴛᴏ Dᴇʟᴇᴛᴇ Sᴜᴘᴘᴏʀᴛ Aɴᴅ Bᴇꜱᴛ Uɪ Pᴇʀꜰᴏʀᴍᴀɴᴄᴇ </b>"""
-
+    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
+    
+    I Aᴍ Lᴀᴛᴇꜱᴛ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Pᴏᴡᴇʀꜰᴜʟ Fᴜᴛᴜʀᴇs Wɪᴛʜ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ,Cʟᴏɴᴇ Fᴇᴀᴛᴜʀᴇ,Sᴛʀᴇᴀᴍ / Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Fᴇᴀᴛᴜʀᴇ,Cᴜꜱᴛᴏᴍ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛ,Aᴜᴛᴏ Dᴇʟᴇᴛᴇ Sᴜᴘᴘᴏʀᴛ Aɴᴅ Bᴇꜱᴛ Uɪ Pᴇʀꜰᴏʀᴍᴀɴᴄᴇ 
+    
+Oᴜʀ Mᴏᴠɪᴇs Wᴇʙ Sɪᴛᴇ 🍁 - <a href="https://jdmoviesofficial.blogspot.com/?m=1">𝙒𝙀𝘽𝙎𝙄𝙏𝙀</a>
+\n<blockquote>🦋 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href="https://t.me/JDMoviesOfficial"> 𝙅𝘿 𝙈𝙊𝙑𝙄𝙀𝙎 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇❣️</a></blockquote></b>"""
+    
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
