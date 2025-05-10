@@ -60,16 +60,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('❄ Mᴀɪɴ Cʜᴀɴɴᴇʟ ❄', url='https://t.me/JDMoviesOfficial')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('♨️ Pᴀɪᴅ Pʀᴏᴍᴏᴛɪᴏɴ ♨️', url='https://t.me/Arya_Bro_Bot'),
+            InlineKeyboardButton('♨️ Wᴇʙsɪᴛᴇ ♨️', url='https://jdmoviesofficial.blogspot.com/?m=1')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🎀 Hᴇʟᴘ 🎀ᴘ', callback_data='help'),
+            InlineKeyboardButton('🏮 Aʙᴏᴜᴛ 🏮', callback_data='about')
         ]]
         if CLONE_MODE == True:
-            buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+            buttons.append([InlineKeyboardButton('🎭 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🎭', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
         me = client.me
         await message.reply_photo(
@@ -171,11 +171,11 @@ async def start(client, message):
                         stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                         download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                         button = [[
-                            InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                            InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
-                        ],[
-                            InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
-                        ]]
+                        InlineKeyboardButton("🚀 Dᴏᴡɴʟᴏᴀᴅ 🚀", url=download),
+                        InlineKeyboardButton('🖥 Wᴀᴛᴄʜ 🖥', url=stream)
+                    ],[
+                        InlineKeyboardButton("❄ Wᴀᴛᴄʜ Iɴ Wᴇʙ Aᴘᴘ ❄", web_app=WebAppInfo(url=stream))
+                    ]]
                         reply_markup=InlineKeyboardMarkup(button)
                 else:
                     reply_markup = None
@@ -244,10 +244,10 @@ async def start(client, message):
                     stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                     download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
                     button = [[
-                        InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                        InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                        InlineKeyboardButton("🚀 Dᴏᴡɴʟᴏᴀᴅ 🚀", url=download),
+                        InlineKeyboardButton('🖥 Wᴀᴛᴄʜ 🖥', url=stream)
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("❄ Wᴀᴛᴄʜ Iɴ Wᴇʙ Aᴘᴘ ❄", web_app=WebAppInfo(url=stream))
                     ]]
                     reply_markup=InlineKeyboardMarkup(button)
             else:
@@ -341,16 +341,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
-        ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
-        ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❄ Mᴀɪɴ Cʜᴀɴɴᴇʟ ❄', url='https://t.me/JDMoviesOfficial')
+            ],[
+            InlineKeyboardButton('♨️ Pᴀɪᴅ Pʀᴏᴍᴏᴛɪᴏɴ ♨️', url='https://t.me/Arya_Bro_Bot'),
+            InlineKeyboardButton('♨️ Wᴇʙsɪᴛᴇ ♨️', url='https://jdmoviesofficial.blogspot.com/?m=1')
+            ],[
+            InlineKeyboardButton('🎀 Hᴇʟᴘ 🎀ᴘ', callback_data='help'),
+            InlineKeyboardButton('🏮 Aʙᴏᴜᴛ 🏮', callback_data='about')
         ]]
         if CLONE_MODE == True:
-            buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+            buttons.append([InlineKeyboardButton('🎭 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🎭', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
